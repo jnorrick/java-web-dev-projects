@@ -20,9 +20,3 @@ public class CountingCharacters {
         }
     }
 };
-
-
-
-//for (Map.Entry<Character, Integer> c : characterCount.EntrySet()) {
-//    Sout(c.getKey()+ ": " c.getValue())
-//        }
