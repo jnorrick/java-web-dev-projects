@@ -3,7 +3,7 @@ package org.launchcode;
 import java.time.LocalDate;
 
 public class MenuItem {
-    private String name;
+private String name;
     private String description;
     private double price;
     private String category;
@@ -46,6 +46,7 @@ public class MenuItem {
         return category;
     }
 
+
     public void setCategory(String category) {
         this.category = category;
     }
@@ -53,4 +54,6 @@ public class MenuItem {
     public boolean isNew(){
         return isNew;
     }
+
+
 }
